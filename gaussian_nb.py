@@ -3,7 +3,7 @@ import math
 import random
 
 
-def loadData(filename):
+def load_data(filename):
     lines = csv.reader(open(filename, "r"))
     dataset = list(lines)
 
@@ -108,7 +108,7 @@ def main():
     print("Gaussian Naive Bayes classifier\n")
 
     filename = "pima-indians-diabetes.data.csv"
-    dataset = loadData(filename)
+    dataset = load_data(filename)
     print("Loaded {0} with {1} rows".format(filename, len(dataset)))
     split_ratio = 0.67
 

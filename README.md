@@ -1,1 +1,1 @@
-# naive_bayes
+# Simple Naive Bayes applications
